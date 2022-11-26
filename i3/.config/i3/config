@@ -365,7 +365,7 @@ exec --no-startup-id /usr/bin/emacs --daemon
 exec --no-startup-id ~/.config/polybar/launch.sh --forest
 
 # set wallpaper
-exec --no-startup-id wal -i ~/Pictures/samurai.jpg
+exec --no-startup-id wal -i ~/dotfiles/pictures/samurai.jpg
 # exec --no-startup-id sleep 2 && nitrogen --restore
 #exec --no-startup-id feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros_i3.png
 
