@@ -1,15 +1,12 @@
 #!/bin/sh
 alias j='z'
 alias f='zi'
-alias lg='lazygit'
+# alias g='lazygit'
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias nvimrc='nvim ~/.config/nvim/'
-alias vim='nvim'
-alias ll='exa --long'
-alias lla='exa --long --all'
-alias g='git'
-alias emacs='emacsclient -c -a 'emacs''
-alias h='helix'
+alias yay="paru"
+alias g="git"
+alias vim="nvim"
 
 # alias lvim='nvim -u ~/.local/share/lunarvim/lvim/init.lua --cmd "set runtimepath+=~/.local/share/lunarvim/lvim"'
 
