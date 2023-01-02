@@ -1,0 +1,48 @@
+{
+	"name": "saturnmoonlight",
+	"displayName": "Saturn Moonlight",
+	"description": "A beautiful, easy on the eye theme.",
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"publisher": "ArturSponchiado",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"saturn",
+		"theme",
+		"purple",
+		"moonlight"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Saturn Moonlight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/saturn-moonlight-color-theme.json"
+			}
+		]
+	},
+	"icon": "images/saturn.png",
+	"galleryBanner": {
+		"color": "#2B2E4A",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/arturspon/SaturnMoonlight"
+	},
+	"__metadata": {
+		"id": "76c466b5-0b03-4e2d-8a6e-5ce22a2e3d1b",
+		"publisherId": "e1e86e24-4cb2-4a14-845c-6ffb4336ca90",
+		"publisherDisplayName": "Artur Sponchiado",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1669520653337,
+		"preRelease": false
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"name": "andromeda",
+	"displayName": "Andromeda Fork",
+	"description": "Dark theme with a taste of the universe",
+	"version": "1.7.1",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#23262E",
+		"theme": "dark"
+	},
+	"publisher": "FelixIcaza",
+	"author": {
+		"name": "Felix Icaza",
+		"url": "https://github.com/FelixIcaza",
+		"email": "fx.joliett17@gmail.com"
+	},
+	"repository": {
+		"url": "https://github.com/FelixIcaza/Andromeda"
+	},
+	"engines": {
+		"vscode": "^1.14.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Andromeda",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Andromeda-color-theme.json"
+			},
+			{
+				"label": "Andromeda Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Andromeda-color-theme-bordered.json"
+			},
+			{
+				"label": "Andromeda Italic Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Andromeda-italic-color-theme-bordered.json"
+			},
+			{
+				"label": "Andromeda Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Andromeda-italic-color-theme.json"
+			},
+			{
+				"label": "Andromeda Colorizer",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Andromeda-colorizer.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e6e621a7-dabf-4cf5-af8a-1a5d0b747447",
+		"publisherId": "53dfc97b-ac92-4692-b633-7cc62600b711",
+		"publisherDisplayName": "FelixIcaza",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1666714876488,
+		"preRelease": false
+	}
+}

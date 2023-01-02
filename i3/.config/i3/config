@@ -49,7 +49,7 @@ workspace_layout default
 ##############################
 
 #border indicator on windows:
-new_window pixel 1
+#new_window pixel 1
 
 # thin borders
 # hide_edge_borders both
@@ -150,16 +150,16 @@ mode "resize" {
 # Pressing right will grow the window's width.
 # Pressing up will shrink the window's height.
 # Pressing down will grow the window's height.
-bindsym j resize shrink width 10 px or 10 ppt
-bindsym k resize grow height 10 px or 10 ppt
-bindsym l resize shrink height 10 px or 10 ppt
-bindsym ntilde resize grow width 10 px or 10 ppt
+bindsym j resize grow width 2 px or 2 ppt
+bindsym k resize grow height 2 px or 10 ppt
+bindsym l resize shrink height 2 px or 2 ppt
+bindsym ntilde resize shrink width 2 px or 2 ppt
 
 # same bindings, but for the arrow keys
-bindsym Left resize shrink width 10 px or 10 ppt
-bindsym Down resize grow height 10 px or 10 ppt
-bindsym Up resize shrink height 10 px or 10 ppt
-bindsym Right resize grow width 10 px or 10 ppt
+bindsym Left resize grow width 2 px or 2 ppt
+bindsym Down resize grow height 2 px or 2 ppt
+bindsym Up resize shrink height 2 px or 2 ppt
+bindsym Right resize shrink width 2 px or 2 ppt
 
 # back to normal: Enter or Escape
 bindsym Return mode "default"
@@ -278,7 +278,7 @@ bindsym $mod+p exec /usr/local/bin/switch-audio-port
 
 ## App shortcuts
 bindsym $mod+w exec /usr/bin/firefox
-bindsym $mod+n exec /usr/bin/thunar
+bindsym $mod+n exec /usr/bin/code
 bindsym Print exec scrot ~/%Y-%m-%d-%T-screenshot.png && notify-send "Screenshot saved to ~/$(date +"%Y-%m-%d-%T")-screenshot.png"
 
 # Power Profiles menu switcher (rofi)
@@ -313,14 +313,14 @@ set $ws10 "10"
 # bind program to workspace and focus to them on startup:
 assign [class="Xfce4-terminal"] $ws1
 assign [class="(?i)firefox"] $ws2
-assign [class="Thunar"] $ws3
+assign [class="Code"] $ws3
 assign [class="Thunderbird"] $ws4
 assign [class="TelegramDesktop"] $ws5
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Xfce4-terminal] focus
 for_window [class=(?i)firefox] focus
-for_window [class=Thunar] focus
+for_window [class=Code] focus
 for_window [class=Thunderbird] focus
 for_window [class=TelegramDesktop] focus
 
