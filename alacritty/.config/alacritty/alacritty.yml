@@ -4,10 +4,13 @@ window:
     y: 3
   opacity: 1
 
+shell:
+  program: /bin/fish
+
 font:
   normal:
     family: Hack
-  size: 9.3
+  size: 9.7
 
 # Colors (One Darker)
 # Note I am using alacritty-ligatures until ligatures make it upstream
